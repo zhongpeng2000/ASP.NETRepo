@@ -13,10 +13,12 @@ namespace Chapter6.Models
         //}
 
         private IDiscountHelper discounter;
+        private static int counter = 0;
 
         public LinqValueCalculator(IDiscountHelper discounterParam)
         {
             discounter = discounterParam;
+            System.Diagnostics.Debug.WriteLine(string.Format("Instance {0} created", ++counter));
         }
 
 
