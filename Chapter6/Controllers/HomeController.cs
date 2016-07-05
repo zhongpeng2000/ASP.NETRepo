@@ -13,7 +13,7 @@ namespace Chapter6.Controllers
 
         private ILinqValueCalculator iLinqValueCalculator;
 
-        public HomeController(ILinqValueCalculator iLinqValueCalculatorParam)
+        public HomeController(ILinqValueCalculator iLinqValueCalculatorParam, ILinqValueCalculator calc)
         {
             this.iLinqValueCalculator = iLinqValueCalculatorParam;
         }
