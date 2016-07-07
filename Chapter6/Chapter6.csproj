@@ -156,6 +156,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\NinjectDependencyResolver.cs" />
+    <Compile Include="Models\MinimumDiscountHelper.cs" />
     <Compile Include="Models\IDiscountHelper.cs" />
     <Compile Include="Models\ILinqValueCalculator.cs" />
     <Compile Include="Models\LinqValueCalculator.cs" />
